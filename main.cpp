@@ -4,5 +4,6 @@
 int main(int, char **)
 {
     func<LightBulbSelector>();
+    func<BuzzerSelector>("custom");
     return -1;
 }

@@ -19,3 +19,8 @@ struct ShutterSelector
 {
     LibuvBased thread_selector;
 };
+
+struct BuzzerSelector
+{
+    CustomThreadBased thread_selector;
+};
